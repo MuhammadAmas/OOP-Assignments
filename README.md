@@ -1,4 +1,4 @@
-Relationships and writing scenarios of different relationships:
+# Relationships and writing scenarios of different relationships:
 • Khadija and dua –> composition.
 • Urooba and Ahmed –> inheritance.
 • Mariya and Sarah –> association.
