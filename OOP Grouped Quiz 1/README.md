@@ -1,4 +1,5 @@
 Relationships and writing scenarios of different relationships:
+
 • Khadija and dua –> composition.
 
 • Urooba and Ahmed –> inheritance.
@@ -7,10 +8,10 @@ Relationships and writing scenarios of different relationships:
 
 • Nabiha and Jannat –> aggregation.
 
-Application of Fibonacci sequence:
+•Application of Fibonacci sequence:
 Amas and Zunain.
 
-Conversion of Fibonacci's Java code into CPP:
+•Conversion of Fibonacci's Java code into CPP:
 Zunain and Amas.
 
 Driver and car class:
