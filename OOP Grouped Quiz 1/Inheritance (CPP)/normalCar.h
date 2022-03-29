@@ -54,16 +54,3 @@ class normalCar
 
     };
    
-
-
-
-
-
-
-
-
-
-
-
-
-

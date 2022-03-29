@@ -65,7 +65,3 @@ using namespace std;
      sportsCar::~sportsCar()
      {
      }
-
-
-
-
