@@ -1,4 +1,5 @@
 Relationships and writing scenarios of different relationships:
+
 • Khadija and dua –> composition.
 
 • Urooba and Ahmed –> inheritance.
