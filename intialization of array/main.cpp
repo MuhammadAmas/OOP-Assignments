@@ -20,12 +20,8 @@ int main()
         for (int i = 0; i < n; i++){
          Student[i].show();
              
-
     }
-    
-    
-    
-    
+     
     return 0;
 };
 

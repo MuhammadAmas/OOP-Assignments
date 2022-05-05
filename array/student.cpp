@@ -3,9 +3,6 @@
 #include"student.h"
 using namespace std;
 
-
-
-
   student::student()
 {
     this->name;
@@ -37,9 +34,4 @@ using namespace std;
    cout<<rollno<<endl;
    cout<<year<<endl;
  }
-
-
-
-
-
 

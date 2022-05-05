@@ -9,8 +9,7 @@ int main()
     //default
     student Student[n];//for in put
     for (int i = 0; i < n; i++){
-         Student[i].input();
-             
+         Student[i].input();     
 
     }
     //for showing
@@ -20,9 +19,6 @@ int main()
              
 
     }
-    
-    
-    
     
     return 0;
 };

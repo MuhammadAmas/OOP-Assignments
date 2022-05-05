@@ -15,10 +15,5 @@ int year;
   int input();
   void show();
 
-
-
- 
-
-
 };
 
