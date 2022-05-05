@@ -5,8 +5,8 @@ class Matrix{
     public:
     double getelem(int i, int j)
     double setelem(int i, int j)
-    Matrix &add(Matrix other)
-    Matrix &multiply(Matrix other)
+    virtual Matrix &add(Matrix other)
+    virtual Matrix &multiply(Matrix other)
 };
 
 class Matrix2DArray : public Matrix{
