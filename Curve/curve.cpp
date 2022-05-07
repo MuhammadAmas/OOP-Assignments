@@ -5,7 +5,7 @@ using namespace std;
 class curve{
     private:
     enum equation {  };
-    int point[] = {};
+    // int point[] = {};
 
     public:
     curve(){};
@@ -22,6 +22,5 @@ class parametericcurve : public curve{
     void computePoints ();
     friend ostream& operator<<(ostream&, const parametericcurve& c){};
 };
-
 
 
