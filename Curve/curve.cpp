@@ -1,5 +1,6 @@
-#include <iostream>
-#include "curve.h"
+#include<iostream>
+#include<cmath>
+// #include "curve.h"
 using namespace std;
 
 class curve{
