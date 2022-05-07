@@ -1,16 +1,16 @@
 #include <iostream>
-#include <cmath>
+#include "curve.h"
 using namespace std;
 
 class curve{
     private:
     enum equation {  };
-    // int point[] = {};
+    int *point = new int[10];
 
     public:
     curve(){};
     virtual void computePoints () = 0;
-    // friend ostream& operator<<(ostream&, const curve& c){};
+    friend ostream& operator<<(ostream&, const curve& c);
 };
 
 /*
@@ -31,7 +31,7 @@ class parametericcurve : public curve{
             cout << "y"<<i+1 <<"= "<<3*i + 3<<endl;
         }        
     };
-    // friend ostream& operator<<(ostream&, const parametericcurve& c){};
+    friend ostream& operator<<(ostream&, const parametericcurve& c);
 };
 
 int main(){
