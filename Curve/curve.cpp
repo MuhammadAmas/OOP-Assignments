@@ -1,10 +1,11 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 class curve{
     private:
-    enum equation {};
-    // int point [] = {};
+    enum equation {  };
+    int point[] = {};
 
     public:
     curve(){};
@@ -21,3 +22,6 @@ class parametericcurve : public curve{
     void computePoints ();
     friend ostream& operator<<(ostream&, const parametericcurve& c){};
 };
+
+
+
