@@ -26,10 +26,11 @@ class parametericcurve : public curve{
     parametericcurve (){};
     void computePoints (){
         for (int i = 0; i <5; i++){
-            cout << "x"<<i+1 <<"= " << pow(i,2) + 2<<endl;
+            cout << "x"<<i+1 <<" = " << pow(i,2) + 2;
+            cout <<"          y"<<i+1 <<" = "<<3*i + 3<<endl;
         }
         for (int i = 0; i <5; i++){
-            cout << "y"<<i+1 <<"= "<<3*i + 3<<endl;
+            
         }        
     };
     friend ostream& operator<<(ostream&, const parametericcurve& c);
