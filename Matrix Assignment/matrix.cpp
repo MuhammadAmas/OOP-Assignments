@@ -12,8 +12,6 @@ class Matrix{
 class Matrix2DArray : public Matrix{
     private:
     double **data [3][3];
-
-    protected:
     int min(int a, int bint);
     
     public:
@@ -27,10 +25,12 @@ class Matrix2DArray : public Matrix{
 };
 
 class MatrixLin : public Matrix{
+    protected:
     double data[];
     int height;
     int width;
     int min(int a, int b);
+    
     public:
     Matrix2DArray delinearize();
 };
@@ -59,5 +59,5 @@ class MatrixColWise : public MatrixLin{
 };
 
 int main(){
-    
+
 };
