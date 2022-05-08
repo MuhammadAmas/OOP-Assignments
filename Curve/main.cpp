@@ -1,6 +1,6 @@
 #include<iostream>
 #include<cmath>
- #include "curve.h"
+#include "curve.h"
 using namespace std;
 
 int main(){

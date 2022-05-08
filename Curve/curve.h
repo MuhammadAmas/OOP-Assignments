@@ -3,7 +3,7 @@
 using namespace std;
 
 class curve{
-    protected:
+    private:
     enum equation {x, y};
     int *point = new int[10];
 
@@ -15,7 +15,7 @@ class curve{
 
 
 class parametriccurve : public curve{
-    protected:
+    private:
     float minT, maxT, val;
 
     public:
