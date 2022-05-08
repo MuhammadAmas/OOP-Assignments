@@ -57,3 +57,7 @@ class MatrixColWise : public MatrixLin{
     Matrix2Darray delinearize();
     string toString(){};
 };
+
+int main(){
+    
+};
