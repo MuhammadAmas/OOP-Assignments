@@ -1,8 +1,7 @@
- #include<iostream>
+#include<iostream>
 #include<cmath>
- #include "curve.h"
+#include "curve.h"
 using namespace std;
-
  
 parametriccurve::parametriccurve (){};
 

@@ -5,4 +5,4 @@ using namespace std;
 
 curve:: curve(){};
   
-ostream& operator<<(ostream&, const curve& c){}
+ostream& operator<<(ostream&, const curve& c){};
