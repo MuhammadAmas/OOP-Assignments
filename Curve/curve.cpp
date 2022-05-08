@@ -25,6 +25,8 @@ class parametericcurve : public curve{
     public:
     parametericcurve (){};
     void computePoints (){
+        cout << "PARAMETERIC EQUATION " <<endl;
+        cout<< "x = t^2 + 2  ,  y = 3t + 3""\n" << endl;
         for (int i = 0; i <5; i++){
             cout << "x"<<i+1 <<" = " << pow(i,2) + 2;
             cout <<"          y"<<i+1 <<" = "<<3*i + 3<<endl;
