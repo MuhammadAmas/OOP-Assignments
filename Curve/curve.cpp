@@ -4,8 +4,8 @@
 using namespace std;
 
 class curve{
-    private:
-    enum equation {  };
+    protected:
+    enum equation {x, y};
     int *point = new int[10];
 
     public:
@@ -19,7 +19,7 @@ Equation is;
 x = t^2 + 2  y = 3t+3 
 */
 class parametericcurve : public curve{
-    private:
+    protected:
     float minT, maxT;
 
     public:
