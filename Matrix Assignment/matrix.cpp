@@ -24,18 +24,36 @@ class Matrix2DArray : public Matrix{
     Matrix &add(Matrix other);
     Matrix &multiply(Matrix other);
     string toString(){};
-
 };
 
 class MatrixLin : public Matrix{
-    
-
+    double data[];
+    int height;
+    int width;
+    int min(int a, int b);
+    public:
+    Matrix2DArray delinearize();
 };
 
 class MatrixRowWise : public MatrixLin{
-
+    public:
+    MatrixRowWise(){};
+    MatrixRowWise(int height, int width);
+    double getElem(int i, int j);
+    double setelem(int i, int j, double value);
+    Matrix &add(Matrix other);
+    Matrix &multiply(Matrix other);
+    Matrix2Darray delinearize();
+    string toString(){};
 };
 
 class MatrixColWise : public MatrixLin{
-
+    public:
+    MatrixColWise(){};
+    double getElem(int i, int j);
+    double setelem(int i, int j, double value);
+    Matrix &add(Matrix other);
+    Matrix &multiply(Matrix other);
+    Matrix2Darray delinearize();
+    string toString(){};
 };
