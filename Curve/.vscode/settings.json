@@ -26,10 +26,5 @@
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
-  ],
-  "files.associations": {
-    "*.js": "bat",
-    "*.rmd": "markdown",
-    "iostream": "cpp"
-  }
+  ]
 }
